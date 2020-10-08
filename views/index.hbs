@@ -1,0 +1,17 @@
+<h2>News page</h2>
+
+{{#if news.length}}
+    <ul>
+    {{#each news}}
+        <li>
+            <label>
+                <input type="text">
+                <span>{{title}}</span>
+                <button class="btn btn-small"></button>
+            </label>
+        </li>
+    {{/each}}
+    </ul>
+{{else}}
+    <p>No news</p>
+{{/if}}
