@@ -2,7 +2,7 @@ const express = require('express')
 const mongoose = require('mongoose')
 const exphbs = require('express-handlebars')
 const newsRoutes = require('./routes/newslist')
-
+//Hello, bro
 
 const PORT = process.env.PORT || 4000
 
